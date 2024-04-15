@@ -14,6 +14,7 @@ import tifffile as tif
 import math
 from matplotlib import cm
 from utils import rotate_in_x, rotate_in_z, get_corrected_lab_coordinates_in_reciprocal_units
+from settings import read, parse
 
 config = settings.read(sys.argv[2])
 info = settings.parse(config)
