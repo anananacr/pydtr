@@ -1,6 +1,6 @@
 # pydtr
 
-Diffraction tomography reconstruction using peaks list in a CrystFEL stream file.
+Diffraction tomography reconstruction using peaks lists in a CrystFEL stream file.
 It generates the reciprocal space in 3D from a rotational tilt series dataset.
 
 ### Reference:
