@@ -1,11 +1,7 @@
 import sys
 import numpy as np
 from bblib.models import PF8Info, PF8
-import matplotlib.pyplot as plt
 import om.lib.geometry as geometry_functions
-import matplotlib
-
-matplotlib.use("Qt5Agg")
 from os.path import basename, splitext
 from scipy import constants
 import tifffile as tif
