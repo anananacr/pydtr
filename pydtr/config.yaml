@@ -1,0 +1,8 @@
+output_folder: /path/to/folder
+azimuth_of_the_tilt_axis_in_degrees: 83.35
+tilt_angle_in_degrees: 0.1
+starting_angle_in_degrees: -68
+space_stretching_factor: 10
+intensity_factor: 1
+detector_shift_in_x_entry: header/float//entry/shots/detector_shift_x_in_mm
+detector_shift_in_y_entry: header/float//entry/shots/detector_shift_y_in_mm
