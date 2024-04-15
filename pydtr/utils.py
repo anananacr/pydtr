@@ -1,4 +1,5 @@
 import numpy as np
+import om.lib.geometry as geometry_functions
 
 def get_corrected_lab_coordinates_in_reciprocal_units(fs:int, ss:int, pixel_maps:geometry_functions.TypePixelMaps, k: float, res:float, clen:float) -> tuple:
     data_shape = pixel_maps["x"].shape

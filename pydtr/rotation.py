@@ -1,6 +1,4 @@
 import sys
-import h5py
-import hdf5plugin
 import numpy as np
 from bblib.models import PF8Info, PF8
 import matplotlib.pyplot as plt
@@ -9,10 +7,8 @@ import matplotlib
 matplotlib.use('Qt5Agg')
 from os.path import basename, splitext
 from scipy import constants
-from PIL import Image
 import tifffile as tif
 import math
-from matplotlib import cm
 from utils import rotate_in_x, rotate_in_z, get_corrected_lab_coordinates_in_reciprocal_units
 from settings import read, parse
 
