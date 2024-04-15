@@ -1,6 +1,6 @@
 import numpy as np
 
-ef get_corrected_lab_coordinates_in_reciprocal_units(fs:int, ss:int, pixel_maps:geometry_functions.TypePixelMaps, k: float, res:float, clen:float) -> tuple:
+def get_corrected_lab_coordinates_in_reciprocal_units(fs:int, ss:int, pixel_maps:geometry_functions.TypePixelMaps, k: float, res:float, clen:float) -> tuple:
     data_shape = pixel_maps["x"].shape
     peak_index_in_slab = int(round(ss)*data_shape[1])+int(round(fs))
     radius = (pixel_maps["radius"].flatten()[peak_index_in_slab]*k)/(res*clen)
